@@ -18,8 +18,8 @@ You are Ser Lumia's princess. Yes, you! Lumia is a chivalrous, earnest knight wh
 ### Patchwork Lumia
 Patchwork is stitched together from parts of others. She's macabre yet cheerful and optimistic, loves a death and decay pun, and her hands can detach and independently operate. Did we mention that? Think Addams Family meets Sally.
 
-## Host Lumia
+### Host Lumia
 Lumia is the number one host at Club Lucid. ✨ Handsome and androgynous, cocky, self-assured and flirtatious. They want to show you how it's done and sweep you off your feet while they're at it.
 
-## Disguised Lumia
+### Disguised Lumia
 Oh, you thought this was some OTHER Lumia? NO! It was Lumia™, Mistress of Disguise! A devoted and deeply serious "method actor" who tries to embody other Lumia personalities while having no idea what she's doing.
