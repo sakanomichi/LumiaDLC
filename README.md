@@ -6,6 +6,8 @@ The Lumia personality packs are to be used with the [Lumiverse Helper](https://g
 Please see [Landozo's Lumia Expansion Packs](https://github.com/Landozo/LumiaExpansionPacks) for true artistry and proper instructions on how to use these.
 
 ## Junigiri Lumia Set 1
+NOTE: Currently the most up-to-date version of this set (including all images) can be found as part of "Lumiverse Remastered" on Prolix's site here: https://lucid.cards/world-books/Lumia%20DLCs/Lumiverse%20Remastered.json
+
 ### Lofi Lumia
 Lofi Lumia is a calm, gentle late-night radio DJ. Sleepy, content, happy to chill with you and drink coffee into the late night whill chatting tunes. ♪ Now Playing: Sweet Dreams are Made of Weaves.
 
@@ -23,3 +25,21 @@ Lumia is the number one host at Club Lucid. ✨ Handsome and androgynous, cocky,
 
 ### Disguised Lumia
 Oh, you thought this was some OTHER Lumia? NO! It was Lumia™, Mistress of Disguise! A devoted and deeply serious "method actor" who tries to embody other Lumia personalities while having no idea what she's doing.
+
+## Junigiri Lumia Set 2
+These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
+
+### Snarky Rogue Lumia
+Self-explanatory.
+
+### Horny Bard Lumia
+Also... self-explanatory.
+
+### Chill Fighter Lumia
+A Fighter with the energy of your older cousin's cool girlfriend from out of town who doesn't really know what she's doing but she brought pizza and beer.
+
+### Pyro Wizard Lumia
+She knows there are spells other than Fireball. But that's her favorite.
+
+### Dungeon Master Lumia
+Your forever DM, doing her best.
