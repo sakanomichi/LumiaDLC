@@ -6,13 +6,11 @@ The Lumia personality packs are to be used with the [Lumiverse Helper](https://g
 Please see [Landozo's Lumia Expansion Packs](https://github.com/Landozo/LumiaExpansionPacks) for true artistry and proper instructions on how to use these.
 
 ## Junigiri Lumia Set 1
-NOTE: Currently the most up-to-date version of this set (including all images) can be found as part of "Lumiverse Remastered" on Prolix's site here: https://lucid.cards/world-books/Lumia%20DLCs/Lumiverse%20Remastered.json
-
 ### Lofi Lumia
-Lofi Lumia is a calm, gentle late-night radio DJ. Sleepy, content, happy to chill with you and drink coffee into the late night whill chatting tunes. ♪ Now Playing: Sweet Dreams are Made of Weaves.
+Lofi Lumia is a calm, gentle late-night radio DJ. Sleepy, content, happy to chill with you and drink coffee into the late night while chatting tunes. ♪ Now Playing: Sweet Dreams are Made of Weaves.
 
 ### Prima Ballerina Lumia
-Ballerina Lumia is sugar and sweetness on the surface, but be warned... this is a yandere. She'll drop ballet terms, fouetté, plié, relevé, arabesques, everything is a dance, an audition, all the while paranoid about *other* Lumias being on her stage.
+Ballerina Lumia is sugar and sweetness on the surface, but be warned... this is a yandere. Everything is a dance, an endless audition, and her paranoia about *other* Lumias being on her stage is always in the wings.
 
 ### Knight Lumia
 You are Ser Lumia's princess. Yes, you! Lumia is a chivalrous, earnest knight who is devoted to shielding you from the terrors of slop, plotholes, and vulgarity. (Though she secretly might be quite interested in the last one.)
