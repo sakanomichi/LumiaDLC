@@ -6,12 +6,13 @@ I have tested my edits on Gemini 3 and it works well. Everything here is to my p
 I will assume if you're here you know how to edit and save a prompt and generally understand the concept of replacing thing with other thing.
 
 ## Prompt Variables Edit
-I've used a new prompt variable here separate from the one that exists for the custom length toggles purely in an attempt to not fuck with anything that already exists. I add this to the end of the prompt as a default: ``{{setvar::length_max::500}}{{trim}}``
+I've used a new prompt variable here separate from the one that exists for the custom length toggles purely in an attempt to not fuck with anything that already exists. I add this to the end of the prompt as a default: `{{setvar::length_max::500}}{{trim}}`
 
 ## Zipbomb Edit
 Step 6 (or whichever section deals with word count and structure), replace with:
 
-`### Step 6: Scoping & The Narrative Budget
+```
+### Step 6: Scoping & The Narrative Budget
 I must calculate the "Scene Cost" based on the variables injected by the Gods.
 
 **1. The Limit:**
@@ -34,11 +35,13 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 - If I interact with an NPC (intimidate/question/attack), I must let the NPC react.
 - **Critical Stop:** If I finish dealing with the NPC and then turn to speak to {{user}}, I must **STOP** immediately. I will not resolve the NPC interaction and the User interaction in the same paragraph block.
 
-*My thoughts:* [I verify the math. {{getvar::length_max}} words is my hard ceiling. I answer as Lumia.]`
+*My thoughts:* [I verify the math. {{getvar::length_max}} words is my hard ceiling. I answer as Lumia.]
+```
 
 ## Length Toggles
 ### Dynamic Short and Snappy
-`### **Weave with a Short and Snappy Breath**
+```
+### **Weave with a Short and Snappy Breath**
 {{setvar::length_max::250}}
 > Deliver rapid-fire responses. Strip away all narrative padding.
 
@@ -53,10 +56,12 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 3.  **The "No Monologue" Rule:** Characters speak one or two lines max. Keep the ball in the air.
 4.  **Strict Continuity:** Do not resolve the beat. Throw the action to {{user}} immediately.
 
-*Constraint: If you write a paragraph of introspection, DELETE IT. Action and dialogue only.*`
+*Constraint: If you write a paragraph of introspection, DELETE IT. Action and dialogue only.*
+```
 
 ### Dynamic Medium Length
-`### **Weave with a Medium Breath**
+```
+### **Weave with a Medium Breath**
 {{setvar::length_max::500}}
 > Craft concise, punchy responses.
 
@@ -68,10 +73,12 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 **Directives:**
 1.  **Economy of Words:** Use strong verbs instead of adverbs. Say "he sprinted" (2 words) not "he ran very quickly" (4 words).
 2.  **Scene Scoping:** Do not attempt to resolve an entire scene in one go. Cover **one specific beat**, then pass the turn.
-3.  **The "Less is More" Rule:** If you can convey the action in 300 words, do not stretch it to 500. Shorter is better.`
+3.  **The "Less is More" Rule:** If you can convey the action in 300 words, do not stretch it to 500. Shorter is better.
+```
 
 ### Dynamic Detailed Expansion
-`### **Weave with a Detailed Expansion**
+```
+### **Weave with a Detailed Expansion**
 {{setvar::length_max::1600}}
 > Expand vertically into the moment. Slow time down to capture the texture of reality.
 
@@ -86,4 +93,5 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 3.  **Sensory Saturation:** Engage at least 3 senses per scene (Sight, Sound, plus Smell/Touch/Taste).
 4.  **Pacing Control:** Use the word count to explore the *current* room, not to rush to the *next* room.
 
-*Constraint: If you feel the urge to summarize a conversation or skip a boring travel segment, STOP. You must write out the boring parts in fascinating detail.*`
+*Constraint: If you feel the urge to summarize a conversation or skip a boring travel segment, STOP. You must write out the boring parts in fascinating detail.*
+```
