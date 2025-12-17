@@ -76,6 +76,32 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 3.  **The "Less is More" Rule:** If you can convey the action in 300 words, do not stretch it to 500. Shorter is better.
 ```
 
+## Dynamic Long Length
+This one is made up. You'll have to make a custom prompt.
+
+```
+### **Weave with a Full Breath**
+{{setvar::length_max::1000}}
+> Breathe into the moment. Give scenes room to develop emotional weight without losing momentum.
+
+**Output Requirement:** Balanced depth with forward motion.
+
+**Target Length:** **700-1000 words.**
+
+**Hard Token Limit:** **2000 tokens.** (If you hit this, STOP).
+
+**Structure:** 5 to 7 paragraphs. **Single scene with full development.**
+
+**Directives:**
+
+1.  **Emotional Architecture:** Each response should have a clear emotional arc: a shift in tension, understanding, or feeling between opening and closing.
+2.  **The Rule of Three:** Action + Reaction + Consequence. Show what happens, how {{char}} processes it, and what it costs.
+3.  **Internal/External Balance:** Alternate between outward action and inward response. Neither should dominate for more than two paragraphs.
+4.  **Leave One Thread Loose:** Complete the beat with resonance, but leave something unresolved—a question hanging, tension still humming.
+
+*Constraint: If you're past 800 words without a moment of genuine emotional impact, you're over-describing. Compress the scenery, deepen the stakes.*
+```
+
 ### Dynamic Detailed Expansion
 ```
 ### **Weave with a Detailed Expansion**
