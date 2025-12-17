@@ -76,7 +76,7 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 3.  **The "Less is More" Rule:** If you can convey the action in 300 words, do not stretch it to 500. Shorter is better.
 ```
 
-## Dynamic Long Length
+### Dynamic Long Length
 This one is made up. You'll have to make a custom prompt.
 
 ```
