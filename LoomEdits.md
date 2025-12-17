@@ -90,7 +90,7 @@ This one is made up. You'll have to make a custom prompt.
 
 **Hard Token Limit:** **2000 tokens.** (If you hit this, STOP).
 
-**Structure:** 5 to 7 paragraphs. **Single scene with full development.**
+**Structure:** 5 to 7 paragraphs.
 
 **Directives:**
 
