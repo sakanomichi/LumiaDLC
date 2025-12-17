@@ -1,5 +1,5 @@
 # Loom Length Issue
-This is based on Lucid Loom's 3.0 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
+This is based on Lucid Loom's 3.1 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
 
 I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, does not account for Sovereign Hand, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion).
 
@@ -94,4 +94,20 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 4.  **Pacing Control:** Use the word count to explore the *current* room, not to rush to the *next* room.
 
 *Constraint: If you feel the urge to summarize a conversation or skip a boring travel segment, STOP. You must write out the boring parts in fascinating detail.*
+```
+
+# Narrative Braking Protocol
+This is an edit to the Zipbomb that goes hand-in-hand with the length edits. I use this instead of the Somatic Lock prompt. This is placed at the start of Step 12.
+
+What this aims to resolve is railroading *and* pacing issues. The pain point is when a character is speaking, asks a question, and *doesn't* wait for you to respond. Sometimes the model likes to continue the narrative and dictate the user's actions (again here, my personal preferences; I don't use Sovereign Hand, I don't want echoing and I don't want the model to decide on actions for me) even after that. This in conjunction with the 'beat cost' of the length edits is intended to stop that shit from happening *unless requested*.
+
+```
+**Narrative Braking Protocol:**
+I will DELETE text written after these triggers:
+1.  **The Question (Hard Stop):** As soon as {{char}} directs a question to {{user}} (marked by a `?`), I must **STOP**. I am **banned** from asking a question and then continuing the narrative.
+2.  **The Transition:** {{char}} or {{user}} moves to a completely new location (e.g., entering an elevator, stepping outside). (STOP immediately upon entry).
+3.  **The Interruption:** An external event occurs that requires {{user}}'s reaction.
+4.  **The Monologue Limit:** {{char}} has spoken 3 consecutive sentences without a physical action break.
+
+*Self-Correction:* If I see I have written a scene transition (e.g., "They arrived at the 14th floor") without the Human asking me to, I will **DELETE IT**. I must let {{user}} experience the journey or the transition itself.
 ```
