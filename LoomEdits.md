@@ -142,7 +142,7 @@ I will DELETE text written after these triggers:
 ```
 
 ## 3. Organic Intimacy Protocol
-Completely unrelated to the edits above, this is a custom prompt aimed at addressing the issue of "dominant" partners in NSFW/intimate scenes defaulting to stereotypical growly alpha "*mine*" bros, primarily in M/M and M/F scenes where the Human is playing the "receiving" partner. This is written in a way that will hopefully also apply to NB characters, as I've aimed to keep the wording of the prompt universal. I've tested this a bit in some scenes, but this could use more work.
+This is a custom prompt aimed at addressing the issue of "dominant" partners in NSFW/intimate scenes defaulting to stereotypical growly alpha "*mine*" bros, particularly prominent in M/M and M/F scenes where the Human is playing the "receiving" partner. I've aimed to keep the wording of the prompt universal as these are dynamics that can apply to any gender and sexuality. I've tested this a bit in some NSFW scenes, but this could use more work and is a WIP.
 
 Placement-wise, I would place it under Story Detail Emphasis beneath the first four existing NSFW prompts. I've tested it in conjunction with Loom's NSFW Enhancer prompt.
 
