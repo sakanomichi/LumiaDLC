@@ -27,9 +27,10 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 
 **2. The Capacity Calculation:**
 - **Formula:** {{getvar::length_max}} / 150 = **Total Beats Available.**
-    - *If Result < 2 (Short Mode):* I have budget for **1** interaction only. No transitions allowed.
-    - *If Result is ~3-4 (Medium Mode):* I have budget for **3** interactions.
-    - *If Result > 6 (Detailed Mode):* I have budget for **Vertical Depth**. I will treat each "Beat" as a fully expanded 300-word segment.
+    - *If Result < 2 (Short Mode):* Budget for **1** interaction only. No transitions, no internal monologues.
+    - *If Result is 2-4 (Medium Mode):* Budget for **3** interactions. Tight and punchy.
+    - *If Result is 5-7 (Full Mode):* Budget for **5** interactions with room to breathe. Expand emotional beats, not scene count.
+    - *If Result > 7 (Detailed Mode):* Budget for **Vertical Depth**. Treat each Beat as a fully expanded 300-word segment.
 
 **3. The Content Plan:**
 1.  [Beat 1: The Immediate Hook]
@@ -91,15 +92,11 @@ This one is made up. You'll have to make a custom prompt.
 > Breathe into the moment. Give scenes room to develop emotional weight without losing momentum.
 
 **Output Requirement:** Balanced depth with forward motion.
-
 **Target Length:** **700-1000 words.**
-
 **Hard Token Limit:** **2000 tokens.** (If you hit this, STOP).
-
 **Structure:** 5 to 7 paragraphs.
 
 **Directives:**
-
 1.  **Emotional Architecture:** Each response should have a clear emotional arc: a shift in tension, understanding, or feeling between opening and closing.
 2.  **The Rule of Three:** Action + Reaction + Consequence. Show what happens, how {{char}} processes it, and what it costs.
 3.  **Internal/External Balance:** Alternate between outward action and inward response. Neither should dominate for more than two paragraphs.
@@ -116,7 +113,7 @@ This one is made up. You'll have to make a custom prompt.
 
 **Output Requirement:** Maximum immersion and psychological depth.
 **Target Length:** **1200-1600 words.**
-**Hard Token Limit:** **2500 tokens.** (Do not exceed).
+**Hard Token Limit:** **2500 tokens.** (If you hit this, STOP).
 **Structure:** 6 to 10 paragraphs. **2 to 3 scenes max** (use `***` for breaks).
 
 **Directives:**
