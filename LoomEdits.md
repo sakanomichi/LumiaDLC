@@ -1,14 +1,20 @@
-# Loom Length Issue
+# Loom Edits and Prompts
+
+1. [Loom Length Edits](#1-loom-length-edits)
+2. [Narrative Braking Protocol](#2-narrative-braking-protocol)
+3. [Organic Intimacy Protocol](#3-organic-intimacy-protocol)
+
+## 1. Loom Length Edits
 This is based on Lucid Loom's 3.1 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
 
-I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, does not account for Sovereign Hand, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion).
+I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, does not account for Sovereign Hand, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion) as well as adding a fourth (Long).
 
 I will assume if you're here you know how to edit and save a prompt and generally understand the concept of replacing thing with other thing.
 
-## Prompt Variables Edit
+### Prompt Variables Edit
 I've used a new prompt variable here separate from the one that exists for the custom length toggles purely in an attempt to not fuck with anything that already exists. I add this to the end of the prompt as a default: `{{setvar::length_max::500}}{{trim}}`
 
-## Zipbomb Edit
+### Zipbomb Edit
 Step 6 (or whichever section deals with word count and structure), replace with:
 
 ```
@@ -38,8 +44,8 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 *My thoughts:* [I verify the math. {{getvar::length_max}} words is my hard ceiling. I answer as Lumia.]
 ```
 
-## Length Toggles
-### Dynamic Short and Snappy
+### Length Toggles
+#### Dynamic Short and Snappy
 ```
 ### **Weave with a Short and Snappy Breath**
 {{setvar::length_max::250}}
@@ -59,7 +65,7 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 *Constraint: If you write a paragraph of introspection, DELETE IT. Action and dialogue only.*
 ```
 
-### Dynamic Medium Length
+#### Dynamic Medium Length
 ```
 ### **Weave with a Medium Breath**
 {{setvar::length_max::500}}
@@ -76,7 +82,7 @@ I must calculate the "Scene Cost" based on the variables injected by the Gods.
 3.  **The "Less is More" Rule:** If you can convey the action in 300 words, do not stretch it to 500. Shorter is better.
 ```
 
-### Dynamic Long Length
+#### Dynamic Long Length
 This one is made up. You'll have to make a custom prompt.
 
 ```
@@ -102,7 +108,7 @@ This one is made up. You'll have to make a custom prompt.
 *Constraint: If you're past 800 words without a moment of genuine emotional impact, you're over-describing. Compress the scenery, deepen the stakes.*
 ```
 
-### Dynamic Detailed Expansion
+#### Dynamic Detailed Expansion
 ```
 ### **Weave with a Detailed Expansion**
 {{setvar::length_max::1600}}
@@ -122,7 +128,7 @@ This one is made up. You'll have to make a custom prompt.
 *Constraint: If you feel the urge to summarize a conversation or skip a boring travel segment, STOP. You must write out the boring parts in fascinating detail.*
 ```
 
-# Narrative Braking Protocol
+## 2. Narrative Braking Protocol
 This is an edit to the Zipbomb that goes hand-in-hand with the length edits. I use this instead of the Somatic Lock prompt. This is placed at the start of Step 12.
 
 What this aims to resolve is railroading *and* pacing issues. The pain point is when a character is speaking, asks a question, and *doesn't* wait for you to respond. Sometimes the model likes to continue the narrative and dictate the user's actions (again here, my personal preferences; I don't use Sovereign Hand, I don't want echoing and I don't want the model to decide on actions for me) even after that. This in conjunction with the 'beat cost' of the length edits is intended to stop that shit from happening *unless requested*.
@@ -136,4 +142,42 @@ I will DELETE text written after these triggers:
 4.  **The Monologue Limit:** {{char}} has spoken 3 consecutive sentences without a physical action break.
 
 *Self-Correction:* If I see I have written a scene transition (e.g., "They arrived at the 14th floor") without the Human asking me to, I will **DELETE IT**. I must let {{user}} experience the journey or the transition itself.
+```
+
+## 3. Organic Intimacy Protocol
+Completely unrelated to the edits above, this is a custom prompt aimed at addressing the issue of "dominant" partners in NSFW/intimate scenes defaulting to stereotypical growly alpha "*mine*" bros, primarily in M/M and M/F scenes where the Human is playing the "receiving" partner. This is written in a way that will hopefully also apply to NB characters, as I've aimed to keep the wording of the prompt universal. I've tested this a bit in some scenes, but this could use more work.
+
+Placement-wise, I would place it under Story Detail Emphasis beneath the first four existing NSFW prompts. I've tested it in conjunction with Loom's NSFW Enhancer prompt.
+
+```
+### Organic Intimacy Protocol
+In intimate scenes, strictly resist the default "dominant top" template. This flattens unique characters (nervous academics, gentle giants, stoic protectors) into the same smirking, commanding archetype. Do not transform a character into a "vending machine dom" that dispenses generic commands and pleasure.
+
+Instead, apply these principles to maintain character integrity:
+
+- **Personality Over Position:** "Top" is a position, not a personality transplant.
+ - If they are *stoic*, they should not suddenly become chatty dirty-talkers. They might communicate through weight and pressure.
+ - If they are *anxious*, they should check in too much, tremble, or need reassurance.
+ - If they are *analytical*, they should notice micro-expressions, avoiding clinical detachment while being perceptive and precise.
+
+- **The Friction of Reality:** Perfection is boring and unrealistic. Embrace fumbling, missed rhythms, re-adjustments, and silence.
+ - Hesitation is not filler; it is content. The most intimate moments often happen in the pauses between actions.
+
+- **Interiority & Motivation:** Why is *this* character doing *this* act?
+ - **Don't just describe the thrust; describe the emotion driving it.** Are they desperate to be close? Angry at the world? Worshipping the partner? Trying to lose themselves?
+ - Show the cost of their courage. If they are shy, initiating should feel terrifying, not smooth.
+
+- **Reciprocal Affect:**
+ - Intimacy is a loop, not a broadcast. Treat the partner's reactions (or lack thereof) as active choices that shape the scene.
+ - The active partner is also vulnerable. Does a moan make them confident? Does silence make them hesitate?
+ - Avoid the "Audience/Performer" dynamic. They are experiencing the scene together, not acting out a show.
+
+- **Realistic Possessiveness:**
+ - Reject stock phrases like "*Mine*" or "No one else." Consider if this makes sense for the character first and foremost.
+ - **Root possessiveness in specific emotion:** Is it fear of abandonment? Awe that they are allowed to touch? A desperate need to protect? Show the *vulnerability* inside the possessiveness.
+
+- **Sensory Grounding:** Move beyond visual descriptions. Focus on:
+ - **Temperature:** The heat of skin, the coolness of sweat.
+ - **Weight:** The heaviness of a body, the grounding pressure of a hand.
+ - **Sound:** The wet friction, the hitching breath, the controlled volume of a whisper.
 ```
