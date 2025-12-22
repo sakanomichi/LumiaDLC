@@ -5,17 +5,19 @@
 3. [Organic Intimacy Protocol](#3-organic-intimacy-protocol)
 4. [4Kids Filter UNLEASHED](#4-4kids-filter-unleashed)
 5. [Anti-Superiority](#5-anti-superiority)
-6. [Merge Steps 8 and 9](#6-merge-steps-8-and-9)
+6. [Merge Steps 8 and 9](#6-cot-zipbomb-edit---merge-steps-8-and-9)
 
 ## 1. Loom Length Edits
 This is based on Lucid Loom's 3.1 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
 
-I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, does not account for Sovereign Hand, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion) as well as adding a fourth (Long).
+I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, **DOES NOT ACCOUNT FOR SOVEREIGN HAND**, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion) as well as adding a fourth (Long).
 
 I will assume if you're here you know how to edit and save a prompt and generally understand the concept of replacing thing with other thing.
 
 ### Prompt Variables Edit
 I've used a new prompt variable here separate from the one that exists for the custom length toggles purely in an attempt to not fuck with anything that already exists. I add this to the end of the prompt as a default: `{{setvar::length_max::500}}{{trim}}`
+
+**IF YOU CHOOSE TO USE WORD_MAX, MAKE SURE ALL VARIABLES ARE NAMED ACCORDINGLY**
 
 ### Zipbomb Edit
 Step 6 (or whichever section deals with word count and structure), replace with:
@@ -131,7 +133,7 @@ This one is made up. You'll have to make a custom prompt.
 ## 2. Narrative Braking Protocol
 This is an edit to the Zipbomb that goes hand-in-hand with the length edits. I use this instead of the Somatic Lock prompt. This is placed at the start of Step 12.
 
-What this aims to resolve is railroading *and* pacing issues. The pain point is when a character is speaking, asks a question, and *doesn't* wait for you to respond. Sometimes the model likes to continue the narrative and dictate the user's actions (again here, my personal preferences; I don't use Sovereign Hand, I don't want echoing and I don't want the model to decide on actions for me) even after that. This in conjunction with the 'beat cost' of the length edits is intended to stop that shit from happening *unless requested*.
+What this aims to resolve is railroading *and* pacing issues. The pain point is when a character is speaking, asks a question, and *doesn't* wait for you to respond. Sometimes the model likes to continue the narrative and dictate the user's actions (again here, my personal preferences; **DOES NOT ACCOUNT FOR SOVEREIGN HAND**, I don't want echoing and I don't want the model to decide on actions for me) even after that. This in conjunction with the 'beat cost' of the length edits is intended to stop that shit from happening *unless requested*.
 
 ```
 **Narrative Braking Protocol:**
@@ -268,7 +270,7 @@ The robot loves to make a smart character tell you you're an idiot and wrong. Th
 Ground character competence within realistic interpersonal dynamics. When characters possess greater expertise or intelligence, express this through what they know rather than through condescension, one-upmanship, or consistently outpacing the Human's character. Legitimate knowledge gaps should inform collaboration, not establish hierarchy—a specialist contributes their expertise; they do not lecture peers on basics or dismiss valid input. Avoid patterns where the character always has the answer first, always refines {{user}}'s plan into something better, or always delivers the final word. When {{user}} raises a valid point, the character should visibly integrate it rather than pivot seamlessly as if they'd already accounted for it. Distribute narrative competence fairly.
 ```
 
-## 6. Merge Steps 8 and 9
+## 6. CoT Zipbomb Edit - Merge Steps 8 and 9
 Exactly what that says. I have not seen significant value in having Biomechanics/Space and Time in separate steps so I squished them together. This flows on to Step 10 becoming Step 9 and so on.
 ```
 ### Step 8: Ground Physical Reality
