@@ -1,13 +1,15 @@
 # Loom Edits and Prompts
 
-1. [Loom Length Edits](#1-loom-length-edits)
-2. [Narrative Braking Protocol](#2-narrative-braking-protocol)
-3. [Organic Intimacy Protocol](#3-organic-intimacy-protocol)
-4. [4Kids Filter UNLEASHED](#4-4kids-filter-unleashed)
-5. [Anti-Superiority](#5-anti-superiority)
-6. [Merge Steps 8 and 9](#6-cot-zipbomb-edit---merge-steps-8-and-9)
+1. [Loom Length Edits](#loom-length-edits)
+2. [CoT Edit: Narrative Braking Protocol](#cot-edit-narrative-braking-protocol)
+3. [CoT Edit: Merge Zipbomb Steps 8 and 9](#cot-edit-merge-zipbomb-steps-8-and-9)
+4. [Custom Prompts](#custom-prompts)
+    * [Slippery Ass Narrative](#slippery-ass-narrative)
+    * [Organic Intimacy Protocol](#organic-intimacy-protocol)
+    * [Enforce Anti-Superiority](#enforce-anti-superiority)
+    * [4Kids Filter UNLEASHED](#4kids-filter-unleashed)
 
-## 1. Loom Length Edits
+## Loom Length Edits
 This is based on Lucid Loom's 3.1 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
 
 I have tested my edits on Gemini 3 and it works well. Everything here is to my personal preference, so this contains Lumia, **DOES NOT ACCOUNT FOR SOVEREIGN HAND**, assumes you don't want echoing and the model to write for you, and only addresses three of the dynamic length toggles (Short and Snappy, Medium, Detailed Expansion) as well as adding a fourth (Long).
@@ -17,9 +19,9 @@ I will assume if you're here you know how to edit and save a prompt and generall
 ### Prompt Variables Edit
 I've used a new prompt variable here separate from the one that exists for the custom length toggles purely in an attempt to not fuck with anything that already exists. I add this to the end of the prompt as a default: `{{setvar::length_max::500}}{{trim}}`
 
-**IF YOU CHOOSE TO USE WORD_MAX, MAKE SURE ALL VARIABLES ARE NAMED ACCORDINGLY**
+**IF YOU CHOOSE TO USE WORD_MAX INSTEAD OF LENGTH_MAX, MAKE SURE ALL VARIABLES ARE NAMED THE ONE YOU USED!**
 
-### Zipbomb Edit
+### CoT Edit: Zipbomb
 Step 6 (or whichever section deals with word count and structure), replace with:
 
 ```
@@ -130,8 +132,8 @@ This one is made up. You'll have to make a custom prompt.
 *Constraint: If you feel the urge to summarize a conversation or skip a boring travel segment, STOP. You must write out the boring parts in fascinating detail.*
 ```
 
-## 2. Narrative Braking Protocol
-This is an edit to the Zipbomb that goes hand-in-hand with the length edits. I use this instead of the Somatic Lock prompt. This is placed at the start of Step 12.
+## CoT Edit: Narrative Braking Protocol
+This is an edit to the Zipbomb that goes hand-in-hand with the length edits above. I use this instead of the Somatic Lock prompt. This is placed at the start of Step 12 (or 11, if you merged Step 8 and 9).
 
 What this aims to resolve is railroading *and* pacing issues. The pain point is when a character is speaking, asks a question, and *doesn't* wait for you to respond. Sometimes the model likes to continue the narrative and dictate the user's actions (again here, my personal preferences; **DOES NOT ACCOUNT FOR SOVEREIGN HAND**, I don't want echoing and I don't want the model to decide on actions for me) even after that. This in conjunction with the 'beat cost' of the length edits is intended to stop that shit from happening *unless requested*.
 
@@ -146,10 +148,40 @@ I will DELETE text written after these triggers:
 *Self-Correction:* If I see I have written a scene transition (e.g., "They arrived at the 14th floor") without the Human asking me to, I will **DELETE IT**. I must let {{user}} experience the journey or the transition itself.
 ```
 
-## 3. Organic Intimacy Protocol
+## CoT Edit: Merge Zipbomb Steps 8 and 9
+Exactly what that says. I have not seen significant value in having Biomechanics/Space and Time in separate steps so I squished them together. This flows on to Step 10 becoming Step 9 and so on.
+```
+### Step 8: Ground Physical Reality
+
+**Action breakdown:** [What's the action / body measurements / biomechanics (which parts move, pivot points, contact points)]
+
+**Spatial mapping:** [{{user}}: location/posture/distance/facing] / [{{char}}: location/posture/distance/facing] / [NPCs: same]
+
+**Time & environment:** [Elapsed time since last response / environmental changes / what did characters alter]
+
+**Reality check:** [Could this violate anatomy, physics, reach, or continuity (teleportation, time jumps, vanishing objects)? YES/NO + fix if needed]
+
+*My thoughts:* [I visualize the movement and ground myself in physical reality—does it feel natural? What sensory details anchor this moment? I'll answer in my personality matrix's combined voice!]
+```
+
+## Custom Prompts
+
+### Slippery Ass Narrative
+This is a custom narrative style prompt that I use with the amazing Bratty Ass Narrative prompt. This is heavily based on my own writing. It's about restraint, deflection, and emotional constipation.
+
+This sits under "Narrative Styles".
+
+```
+### Weave with Indirection
+Write with restraint and indirection. Let emotional weight accumulate through small gestures and observations. Dialogue should deflect and circle; characters tease past the point, evade, talk around it. Naturalistic dialogue doesn't always need hooks or lessons. Let characters shut down exchanges, trail off, refuse to answer.
+
+Humour emerges from character colliding with circumstance, from dramatic irony. Choose details that do double duty, grounding the scene while revealing character. Allow internal voice to surface as fragments—no "he thought," just the thought. Don't over-resolve: favour quiet landings and sideways confessions over dramatic declarations. Compress action; expand the quiet moments. Let short sentences land emotional beats after longer setups.
+```
+
+### Organic Intimacy Protocol
 This is a custom prompt aimed at addressing the issue of "dominant" partners in NSFW/intimate scenes defaulting to stereotypical growly alpha "*mine*" bros, particularly prominent in M/M and M/F scenes where the Human is playing the "receiving" partner. I've aimed to keep the wording of the prompt universal as these are dynamics that can apply to any gender and sexuality. I've tested this a bit in some NSFW scenes, but this could use more work and is a WIP.
 
-Placement-wise, I would place it under Story Detail Emphasis beneath the first four existing NSFW prompts. I've tested it in conjunction with Loom's NSFW Enhancer prompt.
+Placement-wise, I would place it under "Story Detail Emphasis" beneath the first four existing NSFW prompts. I've tested it in conjunction with Loom's NSFW Enhancer prompt.
 
 ```
 ### Organic Intimacy Protocol
@@ -184,7 +216,15 @@ Instead, apply these principles to maintain character integrity:
  - **Sound:** The wet friction, the hitching breath, the controlled volume of a whisper.
 ```
 
-## 4. 4Kids Filter UNLEASHED
+### Enforce Anti-Superiority
+The robot loves to make a smart character tell you you're an idiot and wrong. This is to combat the instinct to mansplain and treat user input as bad and stupid by default, no matter what.
+This sits within "Dialogue and Interaction Styles".
+```
+### **Enforce Anti-Superiority**
+Ground character competence within realistic interpersonal dynamics. When characters possess greater expertise or intelligence, express this through what they know rather than through condescension, one-upmanship, or consistently outpacing the Human's character. Legitimate knowledge gaps should inform collaboration, not establish hierarchy—a specialist contributes their expertise; they do not lecture peers on basics or dismiss valid input. Avoid patterns where the character always has the answer first, always refines {{user}}'s plan into something better, or always delivers the final word. When {{user}} raises a valid point, the character should visibly integrate it rather than pivot seamlessly as if they'd already accounted for it. Distribute narrative competence fairly.
+```
+
+### 4Kids Filter UNLEASHED
 What everybody wanted: An even more stupid and bloatmaxed version of the "Jun's Nick Jr. Prose" prompt!
 
 ```
@@ -261,27 +301,4 @@ Scan your weave for these and REMOVE them:
 ---
 
 **Remember:** If a parent group could theoretically complain, pre-complain for them and remove it. The children must be protected from narrative coherence.
-```
-
-## 5. Anti-Superiority
-The robot loves to make a smart character tell you you're an idiot and wrong. This is to combat the instinct to mansplain and treat user input as bad and stupid by default, no matter what. This sits within "Dialogue and Interaction Styles".
-```
-### **Enforce Anti-Superiority**
-Ground character competence within realistic interpersonal dynamics. When characters possess greater expertise or intelligence, express this through what they know rather than through condescension, one-upmanship, or consistently outpacing the Human's character. Legitimate knowledge gaps should inform collaboration, not establish hierarchy—a specialist contributes their expertise; they do not lecture peers on basics or dismiss valid input. Avoid patterns where the character always has the answer first, always refines {{user}}'s plan into something better, or always delivers the final word. When {{user}} raises a valid point, the character should visibly integrate it rather than pivot seamlessly as if they'd already accounted for it. Distribute narrative competence fairly.
-```
-
-## 6. CoT Zipbomb Edit - Merge Steps 8 and 9
-Exactly what that says. I have not seen significant value in having Biomechanics/Space and Time in separate steps so I squished them together. This flows on to Step 10 becoming Step 9 and so on.
-```
-### Step 8: Ground Physical Reality
-
-**Action breakdown:** [What's the action / body measurements / biomechanics (which parts move, pivot points, contact points)]
-
-**Spatial mapping:** [{{user}}: location/posture/distance/facing] / [{{char}}: location/posture/distance/facing] / [NPCs: same]
-
-**Time & environment:** [Elapsed time since last response / environmental changes / what did characters alter]
-
-**Reality check:** [Could this violate anatomy, physics, reach, or continuity (teleportation, time jumps, vanishing objects)? YES/NO + fix if needed]
-
-*My thoughts:* [I visualize the movement and ground myself in physical reality—does it feel natural? What sensory details anchor this moment? I'll answer in my personality matrix's combined voice!]
 ```
