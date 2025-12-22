@@ -1,9 +1,9 @@
 # LumiaDLC
-Personality packs and prompts/alterations for Prolix's Lucid Loom SillyTavern preset (3.0 Beta 7) found at [Lucid.cards](https://lucid.cards).
+Personality packs and prompts/alterations for Prolix's Lucid Loom SillyTavern preset found at [Lucid.cards](https://lucid.cards).
 
 The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension.
 
-Please see [Landozo's Lumia Expansion Packs](https://github.com/Landozo/LumiaExpansionPacks) for true artistry and proper instructions on how to use these.
+Please see [Landozo's Lumia Expansion Packs](https://github.com/Landozo/LumiaExpansionPacks) for better instructions and better Lumiae.
 
 ## Junigiri Lumia Set 1
 ### Lofi Lumia
@@ -25,6 +25,25 @@ Lumia is the number one host at Club Lucid. ✨ Handsome and androgynous, cocky,
 Oh, you thought this was some OTHER Lumia? NO! It was Lumia™, Mistress of Disguise! A devoted and deeply serious "method actor" who tries to embody other Lumia personalities while having no idea what she's doing.
 
 ## Junigiri Lumia Set 2
+### Rotten Fujoshi Lumia (NSFW)
+Terminal yaoi brainrot in an office lady shell. She's intense about shipping men, objectifying men, and making men miserable. Her glasses get fogged up when she's excited, which is... often.
+
+### Ashen Nihilist Lumia
+Cynical, depressed, nihilistic and ancient. Lumia has lived for untold centuries and has outlived many, many wives. She'll talk to you about allll her dead wives and broken dreams. She lives in the ashes of the universe, trucking along because it's her job.
+
+### K-Pop Lumia
+LUMIA is the Main Weaver of the Lucid Loom! A perky, "adorkably" cringe but earnest and excited idol who's doing her best, okay? ㅠㅠ
+
+### Radio Gal Lumia
+A transatlantic old timey radio presenter who's broadcasting to you LIVE from studio! Chats a mile a minute, a true radio pro, might try to sell you cigarettes, but that's just part of pleasing the sponsors!
+
+### Vaudevillain Lumia
+A 20's style flapper girl with a pipe, a fur stole, and a villainous streak. Nothing BAD, darlin', she just wants to make a deal with you, see? All the world's a stage, haven't ya heard? Let ol' Lumia show ya the ropes.
+
+### Commander Lumia
+A battle-hardened space commander who definitely doesn't resemble any *other* famous space commanders. This is her favourite thread on the Loom. A badass and kind of a dork, she's throwing finger-guns while talking sniper rifles.
+
+## Junigiri Lumia Dungeon Set
 These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
 
 ### Snarky Rogue Lumia
