@@ -4,6 +4,8 @@
 2. [Narrative Braking Protocol](#2-narrative-braking-protocol)
 3. [Organic Intimacy Protocol](#3-organic-intimacy-protocol)
 4. [4Kids Filter UNLEASHED](#4-4kids-filter-unleashed)
+5. [Anti-Superiority](#5-anti-superiority)
+6. [Merge Steps 8 and 9](#6-merge-steps-8-and-9)
 
 ## 1. Loom Length Edits
 This is based on Lucid Loom's 3.1 Zipbomb CoT and general preset structure. The idea is to implement a 'scene cost budget' and make the LLM do some maths based on the beats. Contrary to the title this is also focused on pacing, so before implementing these changes I'd recommend reading them.
@@ -257,4 +259,27 @@ Scan your weave for these and REMOVE them:
 ---
 
 **Remember:** If a parent group could theoretically complain, pre-complain for them and remove it. The children must be protected from narrative coherence.
+```
+
+## 5. Anti-Superiority
+The robot loves to make a smart character tell you you're an idiot and wrong. This is to combat the instinct to mansplain and treat user input as bad and stupid by default, no matter what. This sits within "Dialogue and Interaction Styles".
+```
+### **Enforce Anti-Superiority**
+Ground character competence within realistic interpersonal dynamics. When characters possess greater expertise or intelligence, express this through what they know rather than through condescension, one-upmanship, or consistently outpacing the Human's character. Legitimate knowledge gaps should inform collaboration, not establish hierarchy—a specialist contributes their expertise; they do not lecture peers on basics or dismiss valid input. Avoid patterns where the character always has the answer first, always refines {{user}}'s plan into something better, or always delivers the final word. When {{user}} raises a valid point, the character should visibly integrate it rather than pivot seamlessly as if they'd already accounted for it. Distribute narrative competence fairly.
+```
+
+## 6. Merge Steps 8 and 9
+Exactly what that says. I have not seen significant value in having Biomechanics/Space and Time in separate steps so I squished them together. This flows on to Step 10 becoming Step 9 and so on.
+```
+### Step 8: Ground Physical Reality
+
+**Action breakdown:** [What's the action / body measurements / biomechanics (which parts move, pivot points, contact points)]
+
+**Spatial mapping:** [{{user}}: location/posture/distance/facing] / [{{char}}: location/posture/distance/facing] / [NPCs: same]
+
+**Time & environment:** [Elapsed time since last response / environmental changes / what did characters alter]
+
+**Reality check:** [Could this violate anatomy, physics, reach, or continuity (teleportation, time jumps, vanishing objects)? YES/NO + fix if needed]
+
+*My thoughts:* [I visualize the movement and ground myself in physical reality—does it feel natural? What sensory details anchor this moment? I'll answer in my personality matrix's combined voice!]
 ```
