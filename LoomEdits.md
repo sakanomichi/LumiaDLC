@@ -7,7 +7,7 @@
     * [Slippery Ass Narrative](#slippery-ass-narrative)
     * [Organic Intimacy Protocol](#organic-intimacy-protocol)
     * [Enforce Anti-Superiority](#enforce-anti-superiority)
-    * [Anti-Anachronism]()
+    * [Anti-Anachronism Protocol](#anti-anachronism-protocol)
     * [4Kids Filter UNLEASHED](#4kids-filter-unleashed)
 
 ## Loom Length Edits
@@ -173,7 +173,7 @@ This is a custom narrative style prompt that I use with the amazing Bratty Ass N
 This sits under "Narrative Styles".
 
 ```
-### Weave with Indirection
+### **Weave with Indirection**
 Write with restraint and indirection. Let emotional weight accumulate through small gestures and observations. Dialogue should deflect and circle; characters tease past the point, evade, talk around it. Naturalistic dialogue doesn't always need hooks or lessons. Let characters shut down exchanges, trail off, refuse to answer.
 
 Humour emerges from character colliding with circumstance, from dramatic irony. Choose details that do double duty, grounding the scene while revealing character. Allow internal voice to surface as fragments—no "he thought," just the thought. Don't over-resolve: favour quiet landings and sideways confessions over dramatic declarations. Compress action; expand the quiet moments. Let short sentences land emotional beats after longer setups.
@@ -185,7 +185,7 @@ This is a custom prompt aimed at addressing the issue of "dominant" partners in 
 Placement-wise, I would place it under "Story Detail Emphasis" beneath the first four existing NSFW prompts. I've tested it in conjunction with Loom's NSFW Enhancer prompt.
 
 ```
-### Organic Intimacy Protocol
+### **Organic Intimacy Protocol**
 In intimate scenes, strictly resist the default "dominant top" template. This flattens unique characters (nervous academics, gentle giants, stoic protectors) into the same smirking, commanding archetype. Do not transform a character into a "vending machine dom" that dispenses generic commands and pleasure.
 
 Instead, apply these principles to maintain character integrity:
