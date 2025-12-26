@@ -134,7 +134,7 @@ You're done. Go forth.
 
 ---
 
-## Troubleshooting
+## Troubleshooting and Questions
 
 ### Skills not appearing / wrong POV
 
@@ -155,6 +155,10 @@ The block is hidden by design. You can view the stats by editing the message and
 ### I want to have more than one persona
 
 You can disable the Narrative Prompt and Skill Definitions entries manually. I recommend creating a new lorebook for each persona and moving the associated Narrative Prompt and Skill Definitions entries into them. Disable the lorebook if you are using a different persona.
+
+### Can I delete the examples in the lorebook?
+
+Yes.
 
 ---
 
