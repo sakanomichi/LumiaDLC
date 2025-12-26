@@ -78,7 +78,7 @@ Paste this into **User Settings → Custom CSS** in SillyTavern:
 
 ### Step 2: Activate the Lorebook
 
-Make sure the lorebook is active in your chat. If entries appear in a confusing order, sort by **Custom** or **Order Descending**.
+Download the lorebook JSON and import it into SillyTavern via World Info. Make sure the lorebook is active in your chat. If entries appear in a confusing order, sort by **Custom** or **Order Descending**.
 
 ### Step 3: Generate Your Skills
 
