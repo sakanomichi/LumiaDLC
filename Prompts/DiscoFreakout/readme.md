@@ -152,6 +152,10 @@ Skills should interject constantly, not just when dice need to be rolled. If you
 
 The block is hidden by design. You can view the stats by editing the message and scrolling to the bottom. To disable it being hidden entirely, remove `<div style="display:none;">` and `</div>` from the relevant places.
 
+### I want to have more than one persona
+
+You can disable the Narrative Prompt and Skill Definitions entries manually. I recommend creating a new lorebook for each persona and moving the associated Narrative Prompt and Skill Definitions entries into them. Disable the lorebook if you are using a different persona.
+
 ---
 
 ## Planned Features
