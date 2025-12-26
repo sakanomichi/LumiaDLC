@@ -7,7 +7,9 @@ A Disco Elysium-style internal monologue system for SillyTavern. Generate custom
 ## Credits
 
 🕺 Omni-Mark/Gilgamesh is the original author of the Disco Elysium prompt from the NemoEngine Lite preset, which this is a fork of.
+
 🕺 Chi-Bi's BunnyMo is the inspiration for the concept of the skill quiz sheet.
+
 🕺 This whole system is obviously based on the work of original devs of Disco Elysium.
 
 ## What This Does
@@ -27,6 +29,8 @@ This system generates 24 custom skills mapped to your persona's psychology.
 3. **LLMs get confused sometimes.** They may occasionally narrate skills from the wrong POV. The prompts mitigate this, but pobody's nerfect.
 
 4. **No default DE skills.** The entire point is generating custom skills for your character. If you want Harry's original skills, check out NemoEngine Lite!
+
+5. **This is a WIP.** This has been tested on Claude Opus 4.5, Gemini 3 Pro, and GLM 4.7 in conjunction with the Lucid Loom preset. I have not extensively tested any other models, nor any other presets.
 
 ---
 
