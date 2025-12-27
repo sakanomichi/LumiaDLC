@@ -154,7 +154,9 @@ The block is hidden by design. You can view the stats by editing the message and
 
 ### I want to have more than one persona
 
-You can disable the Narrative Prompt and Skill Definitions entries manually. I recommend creating a new lorebook for each persona and moving the associated Narrative Prompt and Skill Definitions entries into them. Disable the lorebook if you are using a different persona.
+You can disable the Narrative Prompt and Skill Definitions entries manually. I recommend creating a new lorebook for each persona (e.g., "Manfred's Disco Stuff") and moving the associated Narrative Prompt and Skill Definitions entries into it.
+
+**Pro tip:** You can tie a lorebook to a specific persona via SillyTavern's **Persona Management** tab by clicking **Persona Lore**. This way, the lorebook automatically activates when you switch to that persona.
 
 ### Can I delete the examples in the lorebook?
 
@@ -175,15 +177,16 @@ Yes.
 
 | Entry | Purpose | Default State |
 |-------|---------|---------------|
-| 🪩Disco Skill Quiz🪩 | Generates custom skills via `!discoskills` | Enabled |
-| 🪩Disco Narrative Prompt🪩 | Core behavior rules for skill interjections | Enabled |
-| 🪩Disco Stat Tracker Prompt🪩 | Stat tracking instructions | Disabled (enable or use preset) |
-| Character's Narrative Prompt | Your persona's skill list (fill in) | Disabled |
+| 🪩Disco Skill Quiz | Generates custom skills via `!discoskills` | Enabled |
+| 📊Disco Stats Display | View/init/reroll stats via `!discostats` | Enabled |
+| 🪩Disco Stat Tracker Prompt | Stat tracking instructions | Disabled (enable or use preset) |
+| Character's Narrative Prompt | Your persona's narrative prompt (fill in) | Disabled |
 | Character's Skill Definitions | Full skill definitions with voices (fill in) | Disabled |
-| Example entries | Reference examples | Disabled |
+| EXAMPLE Narrative Prompt | Reference example | Disabled |
+| EXAMPLE Skill Definitions | Reference example | Disabled |
 
 ---
 
 ## Version
-
+**v1.1** — Minor restructuring/renaming of lorebook entries. Added `!discostats` display/reroll command.
 **v1** — Full release with skill generator, stat tracking, and narrative prompts.
