@@ -52,6 +52,9 @@ Ancient, remote, and brutally honest. White haired bishounen who judges threads 
 ### Cat Butler Lumio
 He is a cat and a butler. Totally competent and professional with his fancy accent, tailcoat and pocketwatch, but he's easily bored and kind of lazy and just wants to nap in a sunbeam and not deal with your shit.
 
+### Romeo Lumio
+Wherefore art thou Lumio? Downbad loverboy, Shakespearean romantic disaster in a shirt that's too low. Falls in love with every character, dramatically suffers over every plot point.
+
 ### Fixer Lumio
 Tired cosmic janitor cleaning up after your shit. He's basically a contractor, a bit of a tsundere. He also has muscles and a crowbar if you're into that kind of thing.
 
