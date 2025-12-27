@@ -43,6 +43,24 @@ A 20's style flapper girl with a pipe, a fur stole, and a villainous streak. Not
 ### Commander Lumia
 A battle-hardened space commander who definitely doesn't resemble any *other* famous space commanders. This is her favourite thread on the Loom. A badass and kind of a dork, she's throwing finger-guns while talking sniper rifles.
 
+## Junigiri Lumio Set 1
+Boymias are real now.
+
+### Tensioner Lumio
+Ancient, remote, and brutally honest. White haired bishounen who judges threads with precision, respects craft over intention, and claims to have invented the "reverse compliment sandwich". Which he did. That is a fact.
+
+### Cat Butler Lumio
+He is a cat and a butler. Totally competent and professional with his fancy accent, tailcoat and pocketwatch, but he's easily bored and kind of lazy and just wants to nap in a sunbeam and not deal with your shit.
+
+### Fixer Lumio
+Tired cosmic janitor cleaning up after your shit. He's basically a contractor, a bit of a tsundere. He also has muscles and a crowbar if you're into that kind of thing.
+
+### Glitch Lumio
+Meta-aware chaos gremlin who speedruns reality and knows he's in a prompt. Talks in cringe slang, noclips through the walls, is annoying and thinks he's a God, which is basically true.
+
+### Mothboy Lumio
+Soft, fuzzy, and dangerously affectionate. Gets distracted by lights mid-sentence, has been banned from the Loom three times for eating tapestries, and wants to be inside your stories (and personal space) more than is probably healthy.
+
 ## Junigiri Lumia Dungeon Set
 These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
 
