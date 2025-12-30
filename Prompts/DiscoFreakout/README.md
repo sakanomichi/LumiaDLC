@@ -10,6 +10,8 @@ A Disco Elysium-style internal monologue system for SillyTavern. Generate custom
 
 🕺 Chi-Bi's BunnyMo is the inspiration for the concept of the skill quiz sheet.
 
+🕺 Mina for guidance and advice, particularly re: the stat allocation and anti-compensation protocol.
+
 🕺 This whole system is obviously based on the work of original devs of Disco Elysium.
 
 ---
