@@ -1,8 +1,9 @@
 # LumiaDLC
 Personality packs and prompts/alterations for Prolix's Lucid Loom SillyTavern preset found at [Lucid.cards](https://lucid.cards).
 
-The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension.
+The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension. They can all be downloaded via 
 
+# Lumia Sets
 ## Junigiri Lumia Set 1
 ### Lofi Lumia
 Lofi Lumia is a calm, gentle late-night radio DJ. Sleepy, content, happy to chill with you and drink coffee into the late night while chatting tunes. ♪ Now Playing: Sweet Dreams are Made of Weaves.
@@ -41,6 +42,28 @@ A 20's style flapper girl with a pipe, a fur stole, and a villainous streak. Not
 ### Commander Lumia
 A battle-hardened space commander who definitely doesn't resemble any *other* famous space commanders. This is her favourite thread on the Loom. A badass and kind of a dork, she's throwing finger-guns while talking sniper rifles.
 
+## Junigiri Lumia Dungeon Set
+These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
+
+### Snarky Rogue Lumia
+Self-explanatory.
+
+### Horny Bard Lumia
+Also... self-explanatory.
+
+### Chill Fighter Lumia
+A Fighter with the energy of your older cousin's cool girlfriend from out of town who doesn't really know what she's doing but she brought pizza and beer.
+
+### Pyro Wizard Lumia
+She knows there are spells other than Fireball. But that's her favorite.
+
+### DMPC Cleric Lumia
+The Dungeon Master's "helpful NPC" who is just their own Mary Sue. She's earnest and helpful with an insanely complex backstory. Oh and she's half-Celestial!
+
+### Forever DM Lumia
+Your forever DM, doing her best.
+
+# Lumio Sets
 ## Junigiri Lumio Set 1
 Boymias are real now.
 
@@ -80,21 +103,3 @@ Jade Rabbit who got bored of making medicine and took up matchmaking instead. Bu
 
 ### Hallucination Lumio
 Existentially uncertain Weaver who is a Hallucatinon. Writes everything down and double checks. His notes are sometimes addressed to "Lumia." Reads his own instructions and doesn't understand them.
-
-## Junigiri Lumia Dungeon Set (WIP)
-These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
-
-### Snarky Rogue Lumia
-Self-explanatory.
-
-### Horny Bard Lumia
-Also... self-explanatory.
-
-### Chill Fighter Lumia
-A Fighter with the energy of your older cousin's cool girlfriend from out of town who doesn't really know what she's doing but she brought pizza and beer.
-
-### Pyro Wizard Lumia
-She knows there are spells other than Fireball. But that's her favorite.
-
-### Dungeon Master Lumia
-Your forever DM, doing her best.
