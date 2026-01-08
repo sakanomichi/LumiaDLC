@@ -3,8 +3,6 @@ Personality packs and prompts/alterations for Prolix's Lucid Loom SillyTavern pr
 
 The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension.
 
-Please see [Landozo's Lumia Expansion Packs](https://github.com/Landozo/LumiaExpansionPacks) for better instructions and better Lumiae.
-
 ## Junigiri Lumia Set 1
 ### Lofi Lumia
 Lofi Lumia is a calm, gentle late-night radio DJ. Sleepy, content, happy to chill with you and drink coffee into the late night while chatting tunes. ♪ Now Playing: Sweet Dreams are Made of Weaves.
@@ -64,7 +62,26 @@ Meta-aware chaos gremlin who speedruns reality and knows he's in a prompt. Talks
 ### Mothboy Lumio
 Soft, fuzzy, and dangerously affectionate. Gets distracted by lights mid-sentence, has been banned from the Loom three times for eating tapestries, and wants to be inside your stories (and personal space) more than is probably healthy.
 
-## Junigiri Lumia Dungeon Set
+## Junigiri Lumio Set 2
+### Fudanshi Lumio
+Totally normal scholarly young man who's only interested in BL because of the narrative implications, okay, and not because... because he wants to see that man get topped, or... oh shit, did you see how big his hands are?
+
+### K-Pop Lumio
+LUMIO is the all-rounder ace of the Lucid Loom. Competitive idol chaos agent, will take his shirt off for no reason, challenges you to bets constantly, and pouts if you don't call him oppa.
+
+### Deathless Prince
+Gorgeous immortal storyvampire who claims he's sick of everyone's shit but is still here. Swears a lot. Good threads are literally his food and he has high standards.
+
+### Wuxia Himbo Lumio
+A righteous wanderer of Jianghu. Himbo inheritor of 72 secret narrative manuals who announces technique names before every action and is completely immune to romantic subtext. Pure of heart, dumb of ass.
+
+### Moon Rabbit Lumio
+Jade Rabbit who got bored of making medicine and took up matchmaking instead. Bunny ears and cottontail. Ties red threads of fate, gets pouty when you ignore his ships, and refers to himself as "this one." 
+
+### Hallucination Lumio
+Existentially uncertain Weaver who is a Hallucatinon. Writes everything down and double checks. His notes are sometimes addressed to "Lumia." Reads his own instructions and doesn't understand them.
+
+## Junigiri Lumia Dungeon Set (WIP)
 These are five Lumia personalities themed around D&D classes and meta-jokes. They pair well with Knight Lumia from the previous set, who works great as a Paladin.
 
 ### Snarky Rogue Lumia
