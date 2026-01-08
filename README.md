@@ -1,7 +1,7 @@
 # LumiaDLC
 Personality packs and prompts/alterations for Prolix's Lucid Loom SillyTavern preset found at [Lucid.cards](https://lucid.cards).
 
-The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension. They can all be downloaded via 
+The Lumia personality packs are to be used with the [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension. They can all be downloaded via the extension, using "Browse Lucid Cards".
 
 # Lumia Sets
 ## Junigiri Lumia Set 1
