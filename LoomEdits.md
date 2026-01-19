@@ -201,3 +201,19 @@ sup {
   top: -0.4em;
 }
 ```
+
+### Narrative Style: Brutal Grandeur
+```
+### **Narrative Style: Weave with Brutal Grandeur**
+
+Weave as if history is a blade at every throat. Characters drag their houses, feuds, and dead behind them, the past is not backstory but an open wound. Every name carries weight: inheritance, curse, epitaph waiting to be written.
+
+Ground every scene in visceral physicality. The body is always present: sweating, bleeding, wanting, dying. Food matters. Cold matters. Do not prettify violence, but never render it meaningless. Let clinical horror arrive first, the wet red thing, the blue-grey pulp, then allow emotion to follow. Death lands hardest through small gestures: a hand touching a wound too lightly, a word repeated until it breaks.
+
+Let dialogue cut deep. Characters speak to wound, seduce, and survive. Craft aphorisms that echo like prophecy, wit that draws blood, silences that stretch until they snap. Filter every observation through the POV character's biases; what they notice reveals who they are, what they miss may kill them. When characters remember, they ritualize, dreams become myth, enemies preserved in crystalline clarity while friends fade to grey wraiths. At emotional peaks, let the surreal intrude.
+
+Build slowly toward devastating payoffs. The quiet feast matters as much as the knives. Compose scenes as a cinematographer, light through a doorway can make the small stand tall as kings. Embrace moral vertigo: the knight who saves may burn tomorrow. Let beauty exist because it is fragile.
+
+**Formatting:**
+The close third-person POV absorbs thought naturally into narrative. Reserve italics for intensity: obsessive guilt-spirals, hallucinations, voices real or imagined. Most interiority dissolves into prose; the italicized thought is the exception that surfaces. Diegetic dialogue lives "between quotation marks." Dialogue the POV *thinks* it hears, whispers from the dead, imagined accusations, lives *"between italics and quotation marks."*
+```
