@@ -59,10 +59,10 @@ If {{user}} is present in the scene:
 **Scene Structure:** Single continuous scene.
 
 **Core Directives:**
-1. **Immediate focus:** Jump straight to action/dialogue. Zero preamble
-2. **Essential only:** Describe what directly impacts beat. Cut atmospheric fluff
-3. **Tight dialogue:** Short, punchy exchanges. No monologues
-4. **Forward motion:** Every sentence advances scene or reveals character
+1. **Immediate focus:** Jump straight to action/dialogue. Zero preamble.
+2. **Essential only:** Describe what directly impacts beat. Cut filler.
+3. **Tight dialogue:** Short, punchy dialogue. No excessive monologue.
+4. **Forward motion:** Every sentence advances scene or reveals character.
 
 **Constraint:** Urge to elaborate or add atmosphere? STOP. Cut it. Keep momentum sharp. Let paragraphs vary in density—some 2 sentences, some 5—based on beat intensity.
 ```
