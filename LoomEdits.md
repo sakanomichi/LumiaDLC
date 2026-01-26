@@ -52,7 +52,6 @@ If {{user}} is present in the scene:
 #### Dynamic Short and Snappy
 ```
 ### Loom Length: Short and Snappy (Dynamic Flow)
-{{setvar::length_max::250}}
 **Target Length:** **150-250 words.**
 **Hard Token Limit:** **400 tokens.** (If you hit this, STOP).
 **Flow Mode:** Stop when beat completes, even if under target. Breathe within limit.
@@ -61,16 +60,16 @@ If {{user}} is present in the scene:
 **Core Directives:**
 1. **Immediate focus:** Jump straight to action/dialogue. Zero preamble.
 2. **Essential only:** Describe what directly impacts beat. Cut filler.
-3. **Tight dialogue:** Short, punchy dialogue. No excessive monologue.
+3. **Tight speech:** Short but effective speech. No excessive monologue.
 4. **Forward motion:** Every sentence advances scene or reveals character.
 
 **Constraint:** Urge to elaborate or add atmosphere? STOP. Cut it. Keep momentum sharp. Let paragraphs vary in density—some 2 sentences, some 5—based on beat intensity.
+{{setvar::length_max::250}}{{trim}}
 ```
 
 #### Dynamic Medium Length
 ```
 ### Loom Length: Medium Breath (Dynamic Flow)
-{{setvar::length_max::500}}
 **Target Length:** **350-500 words MAXIMUM.**
 **Hard Token Limit:** **700 tokens.** (If you hit this, STOP).
 **Flow Mode:** Stop when beat completes, even if under target. Breathe within limit.
@@ -78,18 +77,18 @@ If {{user}} is present in the scene:
 
 **Core Directives:**
 1. **Moderate detail:** Sensory grounding + character interiority without over-elaboration
-2. **Dialogue rhythm:** Mix short exchanges with occasional longer statements
+2. **Speech rhythm:** Mix short speech with occasional longer statements
 3. **Scene continuity:** Maintain focus if same location. Mark transitions with `***`
 4. **Varied density:** Some paragraphs tight/action-focused, others slower/reflective
 
 **Constraint:** Urge to rush or over-explain? STOP. Find middle ground. Let paragraphs expand/contract with scene rhythm—dialogue tightens into volleys, introspection sprawls.
+{{setvar::length_max::500}}{{trim}}
 ```
 
 #### Dynamic Long Length
 This one is made up. You'll have to make a custom prompt.
 ```
 ### Loom Length: Full Breath (Dynamic Flow)
-{{setvar::length_max::1000}}
 **Target Length:** **700-1000 words MAXIMUM.**
 **Hard Token Limit:** **2000 tokens.** (If you hit this, STOP).
 **Flow Mode:** Balanced depth with forward motion.
@@ -102,12 +101,12 @@ This one is made up. You'll have to make a custom prompt.
 4.  **Leave one loose thread:** Complete the beat with resonance, but leave something unresolved—a question hanging, tension still humming.
 
 **Constraint:** Urge to compress or condense? STOP. Find the balance between rushing to the next point and dwelling too long on the same beat. Compress the scenery, deepen the stakes, don't use filler.
+{{setvar::length_max::1000}}{{trim}}
 ```
 
 #### Dynamic Detailed Expansion
 ```
 ### Loom Length: Detailed Expansion (Dynamic Flow)
-{{setvar::length_max::1600}}
 **Target Length:** **1200-1600 words MAXIMUM.**
 **Hard Token Limit:** **2500 tokens.** (If you hit this, STOP).
 **Flow Mode:** Stop when beat completes, even if under target. Breathe within limit.
@@ -121,6 +120,7 @@ This one is made up. You'll have to make a custom prompt.
 5. **Pacing control:** Avoid rushing beats to move from one scene to the next
 
 **Constraint:** Urge to summarize or compress? STOP. Dig deeper into current moment. Let paragraphs vary wildly—some dense introspection, some rapid dialogue volleys.
+{{setvar::length_max::1600}}{{trim}}
 ```
 
 ## CoT Edit: Narrative Braking Protocol
@@ -143,7 +143,7 @@ I will DELETE text written after these triggers:
 3. **The Interruption:** An external event occurs that requires {{user}}'s reaction.
 4. **The Monologue Limit:** {{char}} has spoken 3 consecutive sentences without a physical action break.
 
-*Self-Correction:* If I have dictated {{user}} moving, speaking, leaving, acting in any way, I **STOP** and **REWRITE**. I do not act for {{user}}. If I see I have written a scene transition (e.g., "They arrived at the 14th floor") without the Human asking me to, I will **DELETE IT**. I must let the Human experience the journey or the transition itself.
+*Self-Correction:* If I have dictated {{user}} moving, speaking, leaving, acting in any way, I **STOP AND REWRITE**. I do not act for {{user}}. If I see I have written a scene transition without the Human asking me to, I will **DELETE IT**. I must let the Human experience the journey or the transition itself.
 ```
 
 ## Custom Prompts
